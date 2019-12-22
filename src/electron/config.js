@@ -20,7 +20,7 @@ export default () => {
     show: true,
     autoHideMenuBar: true,
     icon: path.resolve(__dirname + ImagePath + '/icon.png'),
-    title: app.getName(),
+    title: app.name,
     webPreferences: {
       nodeIntegration: true,
     },
